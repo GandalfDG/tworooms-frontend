@@ -18,6 +18,14 @@
 
 <script>
 export default {
-  name: 'Create'
+  name: 'Create',
+  data: {
+    name: "",
+  },
+  methods: {
+    newGame() {
+      // websocket stuff
+    }
+  }
 }
 </script>
